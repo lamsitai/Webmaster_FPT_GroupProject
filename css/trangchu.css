@@ -5,8 +5,9 @@
     box-sizing: border-box;
 }
 .IMG {
-    max-width: 100%;
+    width: 100%;
     border-radius: 100%;
+    float: left;
 }
 body{
     float: left;
@@ -23,7 +24,7 @@ body{
 .group12{
     border-left: 1px solid #373535;
     float: left;
-    padding-left: 30px;
+    padding-left: 50px;
     margin: 30px;
 }
 button p{
