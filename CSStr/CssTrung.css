@@ -75,25 +75,27 @@ img{
     font-size: 15px;
     margin-top: 15px;
 }
-.boxgioithieu:hover{
+.boxgioithieu:hover {
     box-shadow: 0 0 1px;
     transition: 300ms;
     margin-top: -20px;
+    display: block;
 }
 .muahang{
-    background-color: white;
+    background-color: #222222;
     margin-bottom: 20px;
-    color: #222222;
+    color: #ffffff;
     font-size: 12px;
     padding: 5px;
+    display: none;
 }
 .boxgioithieu{
     padding: 35px;
 }
-.muahang:hover{
-    background-color: #222222;
+.muahang:hover {
+    background-color: #3fc13f;
     transition: 300ms;
-    color: #ffffff;
+    color: #222222;
 }
 .tenhang{
     font-size: 15px;
@@ -105,4 +107,7 @@ img{
 }
 .tensanpham{
     font-size: 5px;
+}
+.boxgioithieu:hover .muahang{
+    display: block;
 }
