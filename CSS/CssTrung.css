@@ -6,8 +6,7 @@
 }
 h1{
     font-size: 20px;
-    color: black;
-    color: #ffffff;
+    color: white;
 }
 .space{
     padding: 10px;
@@ -58,6 +57,9 @@ img{
     text-align: center;
     margin-top: 40px;
 }
+.bestsell a:hover{
+    text-decoration: underline !important;
+}
 .gioithieu{
     text-align: center;
 }
@@ -70,6 +72,7 @@ img{
 }
 .sanpham a{
     color: black;
+    text-decoration: none;
 }
 .gioithieu p{
     font-size: 15px;
@@ -93,9 +96,11 @@ img{
     padding: 35px;
 }
 .muahang:hover {
-    background-color: #3fc13f;
+    background-color: white;
     transition: 300ms;
     color: #222222;
+    border-style: solid;
+    border-color: black;
 }
 .tenhang{
     font-size: 15px;
