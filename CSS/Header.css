@@ -11,7 +11,6 @@ body{
     text-decoration: none;
     text-align: center;
 }
-
 .boxes{
     padding: 60px 0 60px 10px;
     background-color: white;
@@ -150,6 +149,7 @@ body{
 }
 .option{
     padding: 20px;
+    margin-bottom: 40px;
 }
 .option div{
     width: 30%;

@@ -1,62 +1,45 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
+.body-2 img{
+    max-width: 100%;
 }
-.IMG {
+.IMG{
     width: 100%;
     border-radius: 100%;
     float: left;
 }
-body{
-    float: left;
-    width: 100%;
-}
-
-.a{
-    padding: 100px 0px 10px;
-    text-align: center;
-}
-.group1{
+.our-product{
     padding-left: 20px;
     padding-bottom: 30px;
 }
-.group p{
-    color: #777676;
-}
-.group12{
+.product-box{
     float: left;
     padding-left: 30px;
     margin: 30px;
     border-left: 1px solid #1f1e1e;
 }
-button p{
-    text-indent: 5px;
-    padding-top: 10px;
-    text-align: left;
-}
-
-button.group{
-    color: #292929;
+.product-box button{
+    color: #777676;
     width:255px;
     height:50px;
     display: block;
     transition: all 0.1s ease-in;
     background: #ffffff;
     margin: 15px;
-
+    border-style: none;
 }
-button.group:hover{
+.product-box button:hover{
     background: #373737;
     color: #f5f1f1;
     top: -100px;
-
 }
-img{
-    max-width: 100%;
+.our-story{
+    padding: 100px 0 10px;
+    text-align: center;
 }
-.anh img{
+.checkbox{
+    padding-top: 100px;
+    padding-left: 10px;
+}
+.checkbox img{
     float: left;
     max-width: 100%;
     width: 33.33%;
@@ -64,25 +47,14 @@ img{
     margin: auto 0;
     height: 400px;
 }
-.checkbox{
-    padding-top: 100px;
-    padding-left: 10px;
-}
-
-.container4{
-    padding-top: 100px;
-}
-.icon{
-    color: #1d1d1d;
- }
-.box{
+.be-part-of{
     float: left;
     text-align: center;
     width: 100%;
     background-color: black;
     height: 50px;
 }
-.box1{
+.guarantee-box{
     float: left;
     text-align: center;
     padding-left: 180px;

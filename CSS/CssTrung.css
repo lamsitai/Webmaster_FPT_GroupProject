@@ -1,6 +1,12 @@
-h1{
+.body1 h1{
     font-size: 20px;
     color: white;
+}
+.body-1 img{
+    max-width: 100%;
+}
+.body-1{
+    margin-bottom: 100px;
 }
 .space{
     padding: 10px;
@@ -31,9 +37,6 @@ h1{
 .muangay3{
     margin-top: 100px;
     text-align: right;
-}
-img{
-    max-width: 100%;
 }
 .bestsell{
     text-align: center;
