@@ -47,18 +47,20 @@
     margin: auto 0;
     height: 400px;
 }
-.be-part-of{
-    float: left;
+.media{
+    color: whitesmoke;
     text-align: center;
-    width: 100%;
-    background-color: black;
-    height: 50px;
+    position: absolute;
+    top: 250%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-.guarantee-box{
-    float: left;
-    text-align: center;
-    padding-left: 180px;
-    padding-top: 15px;
-    color: white;
+.media p{
+    font-size: 20px;
+}
+.media a{
+    letter-spacing: 20px;
+    font-size: 50px;
+    color: whitesmoke;
 }
 
