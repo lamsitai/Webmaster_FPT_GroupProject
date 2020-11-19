@@ -21,7 +21,7 @@
     width:255px;
     height:50px;
     display: block;
-    transition: all 0.1s ease-in;
+    transition: all 0.3s ease-in;
     background: #ffffff;
     margin: 15px;
     border-style: none;
@@ -34,33 +34,5 @@
 .our-story{
     padding: 100px 0 10px;
     text-align: center;
-}
-.checkbox{
-    padding-top: 100px;
-    padding-left: 10px;
-}
-.checkbox img{
-    float: left;
-    max-width: 100%;
-    width: 33.33%;
-    padding: 0;
-    margin: auto 0;
-    height: 400px;
-}
-.media{
-    color: whitesmoke;
-    text-align: center;
-    position: absolute;
-    top: 250%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.media p{
-    font-size: 20px;
-}
-.media a{
-    letter-spacing: 20px;
-    font-size: 50px;
-    color: whitesmoke;
 }
 
