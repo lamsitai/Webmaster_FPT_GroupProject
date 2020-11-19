@@ -1,0 +1,103 @@
+.body1 h1{
+    font-size: 20px;
+    color: white;
+}
+.body-1 img{
+    max-width: 100%;
+}
+.body-1{
+    margin-bottom: 100px;
+}
+.space{
+    padding: 10px;
+}
+.muangay{
+    border: 1px solid #ffffff;
+    font-size: 13px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+}
+.muangay:hover{
+    background-color: transparent;
+    transition: 500ms;
+    color: white;
+}
+.muangay1{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.muangay2{
+    margin-top: 100px;
+    text-align: center;
+}
+.muangay3{
+    margin-top: 100px;
+    text-align: right;
+}
+.bestsell{
+    text-align: center;
+    margin-top: 40px;
+}
+.bestsell a:hover{
+    text-decoration: underline !important;
+}
+.gioithieu{
+    text-align: center;
+}
+.sanpham p{
+    font-size: 30px;
+}
+.sanpham h2{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.sanpham a{
+    color: black;
+    text-decoration: none;
+}
+.gioithieu p{
+    font-size: 15px;
+    margin-top: 15px;
+}
+.boxgioithieu:hover {
+    box-shadow: 0 0 1px;
+    transition: 300ms;
+    margin-top: -20px;
+    display: block;
+}
+.muahang{
+    background-color: #222222;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 5px;
+    display: none;
+}
+.boxgioithieu{
+    padding: 35px;
+}
+.muahang:hover {
+    background-color: white;
+    transition: 300ms;
+    color: #222222;
+    border-style: solid;
+    border-color: black;
+}
+.tenhang{
+    font-size: 15px;
+    font-weight: 500;
+}
+.gia{
+    font-weight: bold;
+    text-decoration:line-through;
+}
+.tensanpham{
+    font-size: 5px;
+}
+.boxgioithieu:hover .muahang{
+    display: block;
+}
