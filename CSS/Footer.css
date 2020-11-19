@@ -6,7 +6,6 @@
     font-size: 20px;
 
 }
-
 .dangki input {
     height: 50px;
     width: 280px;
@@ -41,9 +40,8 @@
     background-color:#f5f5f5;
     margin-top: 250px;
     text-align: center;
-
 }
-.menu ul li {
+.menu ul li{
     text-decoration: none;
     padding: 30px;
     display: inline-block;
@@ -70,14 +68,10 @@
     float: left;
 }
 .cot1 ul{
-    padding-left: 0px;
+    padding-left: 0;
 }
 .block p{
     font-size: 15px;
-}
-.doimau{
-    color:#9acfea;
-
 }
 .doimauchu a{
     color:#222222;
