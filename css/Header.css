@@ -1,15 +1,17 @@
 body{
     background-color: white;
 }
-.top{
-    padding: 45px 20px 75px 20px;
-    display: block;
+.top-box{
+    padding: 45px 3% 75px;
+    width: 100%;
 }
-.top a{
+.top-box a{
+    float: left;
     font-size: 20px;
     color: black;
     text-decoration: none;
-    text-align: center;
+    padding: 40px 60px 52px;
+    margin-top: -45px;
 }
 .boxes{
     padding: 60px 0 60px 10px;
@@ -26,6 +28,7 @@ body{
 }
 .boxes a{
     padding: 0 !important;
+    margin: 0 !important;
 }
 .boxes a:hover{
     text-decoration: none;
@@ -34,10 +37,6 @@ body{
     border-color: black;
     width: 16%;
     margin-left: -10px;
-}
-.top-left a{
-    float: left;
-    padding: 0 50px 47px;
 }
 .first-box:hover .box-one{
     display: block;
@@ -92,10 +91,6 @@ body{
     background-color: transparent;
     color: white;
 }
-.top-right a{
-    float: right;
-    padding: 0 50px 47px;
-}
 .fourth-box:hover .box-four{
     display: block;
 }
@@ -119,10 +114,9 @@ body{
 .box-six i{
     font-size: 20px;
 }
-.top-logo{
+.top-logo a{
     display: block;
-    position: absolute;
-    margin: -45px 44%;
     max-width: 100%;
-    cursor: pointer;
+    padding: 0 !important;
+    margin-top: -45px;
 }
