@@ -2,13 +2,21 @@
     max-width: 100%;
 }
 .IMG{
-    width: 100%;
+    width: 50%;
+    display: block;
+}
+.IMG img{
     border-radius: 100%;
-    float: left;
+    display: block;
+    margin: auto;
 }
 .our-product{
+    float: left;
     padding-left: 20px;
     padding-bottom: 30px;
+    width: 50%;
+    display: block;
+    background-color: gray;
 }
 .product-box{
     float: left;
@@ -34,5 +42,6 @@
 .our-story{
     padding: 100px 0 10px;
     text-align: center;
+    display: block;
 }
 
