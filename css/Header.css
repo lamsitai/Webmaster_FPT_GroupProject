@@ -67,7 +67,7 @@ body{
 .first-pics{
     background-image: url("../Image/Phần Header/Why_Not.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 .first-pics button:hover{
     background-color: transparent;
@@ -76,16 +76,16 @@ body{
 .second-pics{
     background-image: url("../Image/Phần Header/About-us.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 .second-pics button:hover{
     background-color: transparent;
     color: white;
 }
 .third-pics{
-    background-image: url("../Image/Phần Header/Long-&-Short.jpg");
+    background-image: url("../Image/Phần Header/A-Guide-To.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 .third-pics button:hover{
     background-color: transparent;
