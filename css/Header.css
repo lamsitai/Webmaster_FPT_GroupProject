@@ -65,7 +65,7 @@ body{
     transition: 0.6s;
 }
 .first-pics{
-    background-image: url("../Image/Phần Header/Why_Not.jpg");
+    background-image: url("../Image/Phần-Header/Why_Not.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -74,7 +74,7 @@ body{
     color: white;
 }
 .second-pics{
-    background-image: url("../Image/Phần Header/About-us.jpg");
+    background-image: url("../Image/Phần-Header/About-us.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -83,7 +83,7 @@ body{
     color: white;
 }
 .third-pics{
-    background-image: url("../Image/Phần Header/A-Guide-To.jpg");
+    background-image: url("../Image/Phần-Header/A-Guide-To.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
