@@ -180,3 +180,4 @@ function nav(){
         "        </div>"
 }
 document.getElementById("nav").innerHTML = nav()
+

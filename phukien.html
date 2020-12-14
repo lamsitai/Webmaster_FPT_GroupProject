@@ -16,7 +16,7 @@
 
 </head>
 <body>
-    <header id="header"></header>
+    <header class="header" id="header"></header>
     <nav id="nav"></nav>
     <section class="section col-md-12">
         <div class="container form-group">
@@ -314,5 +314,17 @@
 
     <footer id="footer"></footer>
     <script type="text/javascript" src="Libs/phukien.js"></script>
+    <script type="text/javascript">
+        window.onscroll = function (){
+            var v = $(window).scrollTop();
+            if (v>200){
+                var h = $("#header");
+                h.addClass("active")
+            }else {
+                var h = $("#header");
+                h.removeClass("active");
+            }
+        }
+    </script>
 </body>
 </html>
