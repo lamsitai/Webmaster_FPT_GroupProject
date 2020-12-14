@@ -139,6 +139,7 @@
     transition: 300ms;
     margin-top: -20px;
     display: block;
+    margin-bottom: 30px;
 }
 .muahang{
     background-color: #222222;
@@ -149,7 +150,7 @@
     display: none;
 }
 .boxgioithieu{
-    padding: 35px;
+    padding: 5px;
 }
 .muahang:hover {
     background-color: white;
@@ -171,4 +172,8 @@
 }
 .boxgioithieu:hover .muahang{
     display: block;
+}
+.borderbox{
+    padding: 0px;
+    margin: 0px;
 }

@@ -168,7 +168,7 @@ function header(){
 document.getElementById("header").innerHTML = header()
 
 function nav(){
-    return "<div class=\"big-image\">\n" +
+    return "<div class=\"big-image\" id=\"big_image\">\n" +
         "            <h3><i>BLOOMING COLLECTION</i></h3>\n" +
         "            <h1 style=\"font-size: 60px\"><i>OFF 350K</i></h1>\n" +
         "            <br>\n" +
