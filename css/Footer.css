@@ -119,4 +119,13 @@
 .doimauchu a{
     color:#222222;
 }
+#wp-slider{
+    display: block;
+}
+#wp-slider img{
+    height: 400px;
+}
+.be-part-of i{
+    padding-right: 5px;
+}
 
