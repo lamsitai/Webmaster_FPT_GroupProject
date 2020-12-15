@@ -2,7 +2,6 @@
     max-width: 100%;
 }
 .IMG{
-    width: 50%;
     display: block;
 }
 .IMG img{
@@ -12,10 +11,13 @@
 }
 .our-product{
     float: left;
-    padding-left: 20px;
+    padding-left: 50px;
     padding-bottom: 30px;
     width: 50%;
     display: block;
+}
+.our-product h1{
+    padding-left: -30px;
 }
 .product-box{
     float: left;
@@ -28,7 +30,7 @@
     width:255px;
     height:50px;
     display: block;
-    transition: all 0.3s ease-in;
+    transition: all 0.1ms ;
     background: #ffffff;
     margin: 15px;
     border-style: none;
@@ -42,5 +44,9 @@
     padding: 100px 0 10px;
     text-align: center;
     display: block;
+}
+.max-img{
+    width: 100%;
+    text-align: center;
 }
 
