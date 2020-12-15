@@ -48,5 +48,19 @@
 .max-img{
     width: 100%;
     text-align: center;
+    padding-bottom: 300px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#wp-slider{
+    display: block;
+}
+#wp-slider img{
+    height: 400px;
+}
+.be-part-of i{
+    padding-right: 5px;
 }
 

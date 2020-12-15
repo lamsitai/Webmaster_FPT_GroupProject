@@ -5,6 +5,10 @@
     <title>Webmaster</title>
     <link rel="stylesheet" href="Libs/Bootstrap%203.4.1/css/bootstrap.css">
     <link rel="stylesheet" href="Libs/Font%20Awesome/css/all.css">
+    <script src="Libs/Jquery/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="Libs/owl_carousel/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="Libs/owl_carousel/assets/owl.carousel.css">
+    <script src="Libs/owl_carousel/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="CSS/Header.css">
     <link rel="stylesheet" href="CSS/Body-1.css">
     <link rel="stylesheet" href="CSS/Body-2.css">
@@ -245,7 +249,7 @@
 
     <!---- Phần-Body-2 ---->
 
-    <section class="body-2 col-md-12">
+    <section class=" section body-2 col-md-12">
 
                 <div class="IMG col-md-4 col-md-offset-2">
                     <img src="Image/Phần-Body-2/Our-Product.PNG" height="400px" width="400px"/>
@@ -274,33 +278,51 @@
 
 
 
-    <footer> <!---- Copy Footer ---->
-        <div class="col-md-12">
-            <div class="checkbox">
-                <div class="media">
-                    <h2 style="text-transform: uppercase">be part of webmaster</h2>
-                    <p>Ai nói bạn không thể lựa chọn gia đình</p>
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                    <p style="text-transform: uppercase">#webmaster</p>
-                </div>
-                    <img src="Image/Phần-Body-2/Guarantee-box-1.jpg"/>
-                    <img src="Image/Phần-Body-2/Guarantee-box-2.PNG"/>
-                    <img src="Image/Phần-Body-2/Guarantee-box-3.PNG"/>
-                </div>
-            </div>
-        <div class="be-part-of">
-            <div class="guarantee-box">
-                <p><i class="fas fa-shield-alt"></i>BẢO HÀNH 10 NĂM LỖI SẢN XUẤT</p>
-            </div>
-            <div class="guarantee-box">
-                <p><i class="fas fa-truck"></i>FREESHIP ĐƠN HÀNG TRÊN 500.000 VNĐ</p>
-            </div>
-            <div class="guarantee-box">
-                <p><i class="fas fa-certificate"></i>CAM KẾT 100% HÀNG CHÍNH HÃNG</p>
+    <section class="col-md-12">
+        <div id="wp-slider">
+            <div class="owl-carousel owl-theme">
+                <div class="item" ><a href=""> <img src="Image/Phần-Body-2/capture1.PNG" alt=""></a></div>
+                <div class="item" ><a href=""> <img src="Image/Phần-Body-2/capture2%20(2).PNG" alt=""></a></div>
+                <div class="item" ><a href=""> <img src="Image/Phần-Body-2/capture3.PNG" alt=""></a></div>
+                <div class="item" ><a href=""> <img src="Image/Phần-Body-2/capture1.PNG" alt=""></a></div>
+                <div class="item" ><a href=""> <img src="Image/Phần-Body-2/capture2%20(2).PNG" alt=""></a></div>
+                <div class="item" ><a href=""> <img src="Image/Phần-Body-2/capture3.PNG" alt=""></a></div>
+
             </div>
         </div>
+    </section>
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            loop:false,
+            margin:2,
+            nav:false,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:2
+                },
+                1000:{
+                    items:3
+                }
+            }
+        })
+    </script>
+        <div class="be-part-of">
+            <div class="guarantee-box">
+                <p><i class="fas fa-shield-alt"></i>   BẢO HÀNH 10 NĂM LỖI SẢN XUẤT</p>
+            </div>
+            <div class="guarantee-box">
+                <p><i class="fas fa-truck"></i>   FREESHIP ĐƠN HÀNG TRÊN 500.000 VNĐ</p>
+            </div>
+            <div class="guarantee-box">
+                <p><i class="fas fa-certificate"></i>   CAM KẾT 100% HÀNG CHÍNH HÃNG</p>
+            </div>
+        </div>
+
+
+<!--        bottom-->
         <section style="margin-top: 60px" class="footer col-md-12 row">
             <div class="container">
                 <div class="dangki">
