@@ -181,3 +181,13 @@ function nav(){
 }
 document.getElementById("nav").innerHTML = nav()
 
+window.onscroll = function (){
+    var v = $(window).scrollTop();
+    if (v>200){
+        var h = $("#header");
+        h.addClass("active")
+    }else {
+        var h = $("#header");
+        h.removeClass("active");
+    }
+}
