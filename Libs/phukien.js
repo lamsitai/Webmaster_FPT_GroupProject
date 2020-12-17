@@ -11,7 +11,7 @@ function footer(){
         "                </div>\n" +
         "                    <img src=\"Image/Phần-Body-2/Guarantee-box-1.jpg\"/>\n" +
         "                    <img src=\"Image/Phần-Body-2/Guarantee-box-2.PNG\"/>\n" +
-        "                    <img src=\"Image/Phần-Body-2/Guarantee-box-3.PNG\"/>\n" +
+        "                    <img src=\"Image/Phần-Body-2/Guarantee-box-3.jpg\"/>\n" +
         "                </div>\n" +
         "            </div>\n" +
         "        <div class=\"be-part-of\">\n" +
@@ -137,7 +137,7 @@ function header(){
         "                </div>\n" +
         "            </div>\n" +
         "            <div class=\"top-logo\">\n" +
-        "                <a href=\"#\"><img src=\"Image/Phần-Header/Logo.jpg\" height=\"120\" width=\"120\"/></a>\n" +
+        "                <a href=\"#\"><img src=\"Image/Phần-Header-Footer/Logo.jpg\" height=\"120\" width=\"120\"/></a>\n" +
         "            </div>\n" +
         "            <div class=\"fourth-box\">\n" +
         "                <a href=\"#\">Tài Khoản</a>\n" +

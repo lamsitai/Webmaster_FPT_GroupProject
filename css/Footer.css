@@ -1,122 +1,74 @@
-.checkbox{
-    padding-top: 100px;
-    padding-left: 10px;
-}
-.checkbox img{
-    float: left;
-    max-width: 100%;
-    width: 33.33%;
-    padding: 0;
-    margin: auto 0;
-    height: 400px;
-}
 .media{
-    color: whitesmoke;
-    text-align: center;
+    color: white;
     position: absolute;
-    top: 300px;
     left: 50%;
-    transform: translate(-50%, -50%);
-}
-.media p{
-    font-size: 20px;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
 .media a{
-    letter-spacing: 20px;
-    font-size: 50px;
-    color: whitesmoke;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 15px;
+}
+.check-box img{
+    float:left;
+    width: 33.3%;
+    height: 400px;
 }
 .be-part-of{
-    float: left;
     text-align: center;
+    padding-top: 10px;
+    color: white;
+    background-color: black;
     width: 100%;
-    background-color: black;
-    height: 50px;
-}
-.guarantee-box{
-    float: left;
-    text-align: center;
-    padding-left: 180px;
-    padding-top: 15px;
-    color: white;
-}
-#sign-up{
-    text-align: center;
-}
-#sign-up-1{
-    color: #3c3c3c;
-    font-size: 20px;
-}
-.dangki input {
-    height: 50px;
-    width: 280px;
-    margin-left: 50px;
-    margin-top: 20px;
-    border: 1px solid #0f0f0f;
-    text-indent: 10px;
-    font-size: 18px;
-}
-.dangki button{
-    height: 50px;
-    width: 280px;
-    margin-left: 50px;
-    color: white;
-    border: 1px solid #0f0f0f;
-    background-color: black;
-    text-indent: 10px;
-    font-size: 18px;
-    transition: 0.6s;
-}
-.dangki button:hover{
-    background-color: white;
-    color: black;
-}
-.dangki .stores{
-    margin-top: 20px;
-}
-.dangki .stores .block{
-    float: left;
-    margin-top: 20px;
-}
-.menu{
-    width: auto;
-    height: 80px;
-    background-color:#f5f5f5;
-    margin-top: 250px;
-    text-align: center;
-}
-.menu ul li{
-    text-decoration: none;
-    padding: 30px;
-    display: inline-block;
-    text-align: justify;
-    background-color: #f5f5f5;
-}
-.menu ul li a{
-    color: #222222;
-}
-.img{
-    max-width: 100%;
-}
-.banquyen{
-}
-.anhduoi{
-    height: 60px;
-    margin-top: 20px;
-}
-.cot1 li{
-    list-style: none;
-}
-.cot1{
-    float: left;
-}
-.cot1 ul{
-    padding-left: 0;
-}
-.block p{
     font-size: 15px;
 }
-.doimauchu a{
-    color:#222222;
+.dangki{
+    margin-top: 60px;
 }
-
+#sign-up input{
+    padding: 10px 40px;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+#sign-up button{
+    padding: 10px 40px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    transition: 0.6s;
+}
+#sign-up button:hover{
+    color: black;
+    background-color: white;
+}
+.stores{
+    margin-top: 50px;
+    text-align: left;
+}
+.block{
+    margin-bottom: 50px;
+}
+.policy a{
+    color: black;
+    font-style: oblique;
+}
+.policy a:hover{
+    text-decoration: none;
+    font-style: normal;
+}
+.menu{
+    background-color: lightgray;
+    width: 102.1%;
+    font-size: 20px;
+    padding: 20px 0 10px;
+    margin-bottom: 50px;
+}
+.menu a{
+    color: black;
+}
+.copyright{
+    margin-bottom: 50px;
+}
