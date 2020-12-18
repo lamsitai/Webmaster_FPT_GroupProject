@@ -1,113 +1,174 @@
 
-.slice{
-    width: 100%;
-    height: 600px;
-    text-align: center;
-    color: #ffffff;
-    background-image: url("../Image/woman-ring/anhbia1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    background-attachment: fixed;
-    justify-content: center;
-    align-content: center;
+#slider{
+    overflow: hidden;
 }
-.left{
-    display: block;
-    padding-top: 400px;
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 10s slider infinite;
 }
-.slice .left h2{
-    font-size: 30px;
-    color: #ffffff;
-
+#slider figure img{
+    width: 20%;
+    float: left;
+    height: 550px;
 }
-.slice .left p{
-    font-size: 14px;
-    color: #ffffff;
-
+@keyframes slider {
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -250%;
+    }
+    90%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
 }
-.product{
-    height: 40px;
-    border-bottom: 1px solid #b1b0b0;
+.categories{
+    margin: 70px 0;
+    padding-bottom: 250px;
 }
-.product p{
-    color: black;
-    text-align: center;
-    padding-top: 10px;
-}
-
-.btn{
-    background-color: #3333333b;
-    color: #efeeee;
-}
-.btn:hover{
-    padding: 15px 55px;
-    background-color: #212121;
-    color: white;
-}
-
-.box-one{
-    width: 100%;
-    height: 40px;
-    background-color: #ffffff;
+.row1{
+    width: 1080px;
+    margin: 0 auto;
+    padding-left: 80px;
+    padding-right: 25px;
     padding-bottom: 50px;
-    border-bottom: 1px solid #d9d8d8;
 }
-.box-one p{
-    color: #ffffff;
+.bloc{
+    flex-basis: 30%;
+    min-width: 300px;
+    margin-bottom: 30px;
+}
+.bloc img{
+    width: 100%;
+    height: 300px;
+}
+.title{
     text-align: center;
-    padding-top: 15px;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555555;
 }
-/*anh*/
+.title::after{
+    content: '';
+    background: red;
+    width: 80px;
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .men-watch{
     margin: 60px 20px;
 }
-.layer1{
+.product-list{
     margin: 40px 0;
     padding: 70px 0;
-    height: 500px;
+    height: 550px;
     text-align: center;
     transition: 0.3s;
     font-size: 15px;
     line-height: 20px;
     background-color: white;
 }
-.layer1:hover{
-    border: 1px black solid;
+.product-list:hover{
+    border: 1px #b1a9a9 solid;
     box-shadow: 0 0 2px;
     display: block;
+
 }
-.layer1 button{
+.star{
+    padding-bottom: 10px;
+    color: red;
+}
+.product-list button{
     text-align: center;
     padding: 10px 40px;
     background-color: black;
     color: white;
-    border: 1px black solid;
+    border: 1px #d7d5d5 solid;
     transition: 0.6s;
 }
-.layer1 button:hover{
+.product-list button:hover{
     background-color: white;
     color: black;
-    border: 1px black solid;
+    border: 1px #cac9c9 solid;
 }
-.layer1 img{
-    height: 200px;
-    width: 200px;
+.product-list img{
+    height: 250px;
+    width: 240px;
     margin-bottom: 25px;
-
 }
 
-.layer1 img:hover{
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
+.featured_new{
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: salmon;
+    padding: 3px 7px;
+    font-size: 13px;
 }
-.layer1 img{
-    -webkit-transform: scale(1.0);
-    -moz-transform: scale(1.0);
-    -ms-transform: scale(1.0);
-    -o-transform: scale(1.0);
-    transform: scale(1.0);
+.background{
+    background-color: #efeded;
+    width: 100%;
+    height: 400px;
+}
+.background h2{
+    padding-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.background a{
+    text-transform: none;
+    display: block;
+    color: #6d6b6b;
+}
+.collection {
+    width: 250px;
+    height: 200px;
+    background-color: #f5efef;
+    margin-left: 250px;
+    display: block;
+    box-shadow: 1px 2px 3px;
+}
+.change img{
+    width: 250px;
+    height: 140px;
+}
+.change i {
+    float: right;
+    margin-top: -28px;
+    margin-right: 10px;
+    font-size: 15px;
+
+}
+.change p{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-transform: uppercase;
 }
