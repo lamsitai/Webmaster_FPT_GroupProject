@@ -3,7 +3,7 @@
     padding: 14% 0 14% 42%;
     color: white;
     width: 100%;
-    background-image: url("../Image/Phần-Body-1/Luxury-Watch.jpg");
+    background-image: url("../image/Phần-Body-1/Luxury-Watch.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -43,17 +43,17 @@
     transition: 0.6s;
 }
 .first-image{
-    background-image: url("../Image/Phần-Body-1/Mens-Watch.jpg");
+    background-image: url("../image/Phần-Body-1/Mens-Watch.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .second-image{
-    background-image: url("../Image/Phần-Body-1/Accessories.jpg");
+    background-image: url("../image/Phần-Body-1/Accessories.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .third-image{
-    background-image: url("../Image/Phần-Body-1/Ladies-Watch.jpg");
+    background-image: url("../image/Phần-Body-1/Ladies-Watch.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }

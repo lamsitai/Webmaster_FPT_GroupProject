@@ -3,7 +3,7 @@
     padding: 240px 15% 20px;
     color: white;
     width: 100%;
-    background-image: url("../Image/About-Us/About-us.jpg");
+    background-image: url("../image/About-Us/About-us.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,7 +32,7 @@
     text-align: center;
     padding: 80px 15%;
     margin-top: 100px;
-    background-image: url("../Image/About-Us/Random-Image-2.jpg");
+    background-image: url("../image/About-Us/Random-Image-2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

@@ -9,9 +9,9 @@ function footer(){
         "                <a href=\"#\"><i class=\"fab fa-youtube\"></i></a>\n" +
         "                <h4 class=\"text-uppercase\">#webmaster</h4>\n" +
         "            </div>\n" +
-        "            <img src=\"Image/Phần-Body-2/Guarantee-box-1.jpg\"/>\n" +
-        "            <img src=\"Image/Phần-Body-2/Guarantee-box-2.jpg\"/>\n" +
-        "            <img src=\"Image/Phần-Body-2/Guarantee-box-3.jpg\"/>\n" +
+        "            <img src=\"image/Phần-Body-2/Guarantee-box-1.jpg\"/>\n" +
+        "            <img src=\"image/Phần-Body-2/Guarantee-box-2.jpg\"/>\n" +
+        "            <img src=\"image/Phần-Body-2/Guarantee-box-3.jpg\"/>\n" +
         "        </div>\n" +
         "    </div>\n" +
         "    <div class=\"container be-part-of\">\n" +
@@ -77,9 +77,9 @@ function footer(){
         "                ngày <br/>29/01/2018 123C Thụy Khuê, Tây Hồ, Hà Nội</p>\n" +
         "        </div>\n" +
         "        <div class=\"col-sm-6 col-md-6\">\n" +
-        "            <img class=\"col-sm-3\" src=\"Image/Phần-Header-Footer/Momo.png\"/>\n" +
-        "            <img class=\"col-sm-3\" src=\"Image/Phần-Header-Footer/VNPay.png\"/>\n" +
-        "            <img class=\"col-sm-6\" src=\"Image/Phần-Header-Footer/Bo-Cong-Thuong.png\"/>\n" +
+        "            <img class=\"col-sm-3\" src=\"image/Phần-Header-Footer/Momo.png\"/>\n" +
+        "            <img class=\"col-sm-3\" src=\"image/Phần-Header-Footer/VNPay.png\"/>\n" +
+        "            <img class=\"col-sm-6\" src=\"image/Phần-Header-Footer/Bo-Cong-Thuong.png\"/>\n" +
         "        </div>\n" +
         "    </div>"
 
@@ -130,7 +130,7 @@ function header(){
         "            </div>\n" +
         "        </div>\n" +
         "        <div class=\"top-logo head\">\n" +
-        "            <a href=\"home.html\"><img src=\"Image/Phần-Header-Footer/Logo.jpg\" height=\"130\" width=\"130\"/></a>\n" +
+        "            <a href=\"home.html\"><img src=\"image/Phần-Header-Footer/Logo.jpg\" height=\"130\" width=\"130\"/></a>\n" +
         "        </div>\n" +
         "        <div class=\"fourth-box box head\">\n" +
         "            <a>Tài Khoản</a>\n" +
