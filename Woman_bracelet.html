@@ -9,44 +9,40 @@
     <link rel="stylesheet" href="Libs/owl_carousel/assets/owl.theme.default.css">
     <link rel="stylesheet" href="Libs/owl_carousel/assets/owl.carousel.css">
     <script src="Libs/owl_carousel/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="css/Header.css">
-    <link rel="stylesheet" href="css/Footer.css">
-    <link rel="stylesheet" href="css/Women-ring.css">
-    <link rel="stylesheet" href="css/phukien.css">
+    <link rel="stylesheet" href="CSS/Header.css">
+    <link rel="stylesheet" href="CSS/Footer.css">
+    <link rel="stylesheet" href="CSS/Women-ring.css">
+    <link rel="stylesheet" href="CSS/phukien.css">
 </head>
 <body>
-<header id="header"> <!---- Copy Header ---->
-    <div class="top-box">
-        <div class="first-box">
-            <a href="#">Đồng Hồ</a>
+<header id="my-header"> <!-- Copy Header -->
+    <section class="container-fluid text-center" id="big-screen">
+        <div class="first-box box head">
+            <a>Đồng Hồ</a>
             <div class="boxes box-one">
-                <ul>
-                    <li><a><b>KHÁM PHÁ</b></a></li>
-                    <hr>
-                    <li><a href="Mens-Watches.html">ĐỒNG HỒ NAM</a></li>
-                    <br>
-                    <li><a href="#">ĐỒNG HỒ NỮ</a></li>
-                    <br>
-                    <li><a href="#">DÂY ĐỒNG HỒ</a></li>
-                    <br>
-                    <li><a style="color: red" href="#">ON SALE</a></li>
-                </ul>
+                <p><b>KHÁM PHÁ</b></p>
+                <hr>
+                <a href="Mens-Watches.html">ĐỒNG HỒ NAM</a>
+                <br>
+                <a href="#">ĐỒNG HỒ NỮ</a>
+                <br>
+                <a href="#">DÂY ĐỒNG HỒ</a>
+                <br>
+                <a style="color: red" href="#">ON SALE</a>
             </div>
         </div>
-        <div class="second-box">
-            <a href="#">Phụ Kiện</a>
+        <div class="second-box box head">
+            <a>Phụ Kiện</a>
             <div class="boxes box-two">
-                <ul>
-                    <li><a><b>KHÁM PHÁ</b></a></li>
-                    <hr>
-                    <li><a href="#">PHỤ KIỆN NỮ</a></li>
-                    <br>
-                    <li><a href="#">PHỤ KIỆN NAM</a></li>
-                </ul>
+                <p><b>KHÁM PHÁ</b></p>
+                <hr>
+                <a href="#">PHỤ KIỆN NỮ</a>
+                <br>
+                <a href="#">PHỤ KIỆN NAM</a>
             </div>
         </div>
-        <div class="third-box">
-            <a href="#">Thương Hiệu</a>
+        <div class="third-box box head">
+            <a>Thương Hiệu</a>
             <div class="boxes box-three">
                 <div class="pics first-pics">
                     <h1>Why not?</h1>
@@ -62,35 +58,72 @@
                 </div>
             </div>
         </div>
-        <div class="top-logo">
-            <a href="home.html"><img src="Image/Phần-Header-Footer/Logo.jpg" height="120" width="120"/></a>
+        <div class="top-logo head">
+            <a href="home.html"><img src="Image/Phần-Header-Footer/Logo.jpg" height="130" width="130"/></a>
         </div>
-        <div class="fourth-box">
-            <a href="#">Tài Khoản</a>
+        <div class="fourth-box box head">
+            <a>Tài Khoản</a>
             <div class="boxes box-four">
-                <ul>
-                    <li><a href="#">ĐĂNG NHẬP</a></li>
-                    <hr>
-                    <li><a href="#">ĐĂNG KÍ</a></li>
-                </ul>
+                <a href="#">ĐĂNG NHẬP</a>
+                <hr>
+                <a href="#">ĐĂNG KÍ</a>
             </div>
         </div>
-        <div class="fifth-box">
-            <a href="#">Giỏ Hàng<i class="fas fa-shopping-cart"></i></a>
+        <div class="fifth-box box head">
+            <a>Giỏ Hàng<i class="fas fa-shopping-cart"></i></a>
             <div class="boxes box-five">
             </div>
         </div>
-        <div class="sixth-box">
-            <a href="#"><i class="fas fa-search"></i></a>
+        <div class="sixth-box box head">
+            <a><i class="fas fa-search"></i></a>
             <div class="boxes box-six">
                 <label>
-                    <input name="search" type="text" placeholder="Tìm Kiếm">
-                    <button type="submit"><a href="#"><i class="fas fa-search"></i></a></button>
+                    <input name="search" type="text" placeholder="Tìm Kiếm" required>
+                    <button type="submit" onclick="search()"><a href="#"><i class="fas fa-search"></i></a>
+                    </button>
                 </label>
+                <script type="text/javascript">
+                    function search() {
+                        alert("Sản phẩm bạn tìm kiếm hiện hết hàng")
+                    }
+                </script>
             </div>
         </div>
-    </div>
-</header>
+    </section>
+    <section class="container-fluid" id="small-screen">
+        <div id="main-bar">
+            <button id="open" onclick="openBar()"><i class="fas fa-bars"></i></button>
+        </div>
+        <div id="side-bar">
+            <button id="close" onclick="closeBar()"><i class="fas fa-window-close"></i></button>
+            <a href="Mens-Watches.html">ĐỒNG HỒ NAM</a>
+            <a href="#">ĐỒNG HỒ NỮ</a>
+            <a href="#">DÂY ĐỒNG HỒ</a>
+            <a href="#">PHỤ KIỆN</a>
+            <a href="About-Us.html">THƯƠNG HIỆU</a>
+        </div>
+        <script type="text/javascript">
+            function openBar() {
+                document.getElementById("side-bar").style.width = "250px";
+                document.getElementById("main-bar").style.width = "0"
+            }
+            function closeBar() {
+                document.getElementById("side-bar").style.width = "0"
+                document.getElementById("main-bar").style.width = "100%"
+            }
+        </script>
+    </section>
+    <script type="text/javascript">
+        window.onscroll = function() {
+            headerScroll()
+        }
+        var a = document.getElementById("my-header");
+        var b = header.offsetTop;
+        function headerScroll() {
+            header.classList.add("b");
+        }
+    </script>
+</header> <!-- Copy Header -->
 
 <div id="slider">
     <figure>
