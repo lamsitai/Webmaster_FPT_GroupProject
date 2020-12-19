@@ -1,3 +1,22 @@
+#my-header {
+    top: 0;
+    display: block;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+    border-bottom: 0.5px solid black;
+}
+.head{
+    float:left;
+}
+.box{
+    float: left;
+    padding: 55px 0;
+    max-height: 130px;
+    font-size: 18px;
+    width: 10%;
+}
 body{
     background-color: white;
 }
@@ -65,7 +84,7 @@ body{
     transition: 0.6s;
 }
 .first-pics{
-    background-image: url("../Image/Phần-Header/Why_Not.jpg");
+    background-image: url("../Image/Why-Not/Why_Not.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -74,7 +93,7 @@ body{
     color: white;
 }
 .second-pics{
-    background-image: url("../Image/Phần-Header/About-us.jpg");
+    background-image: url("../Image/About-Us/About-us.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -83,7 +102,7 @@ body{
     color: white;
 }
 .third-pics{
-    background-image: url("../Image/Phần-Header/A-Guide-To.jpg");
+    background-image: url("../Image/Phần-Header-Footer/A-Guide-To.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -119,4 +138,43 @@ body{
     max-width: 100%;
     padding: 0 !important;
     margin-top: -45px;
+}@media screen and (max-width: 700px) {
+    .box{
+        display: none;
+    }
+    .top-logo{
+        width: 100%;
+    }
+    #small-screen{
+        display: block !important;
+    }
+}
+#small-screen {
+    display: none;
+}
+#side-bar{
+   height: 100% !important;
+   width: 0;
+   z-index: 2 !important;
+   top: 0;
+   left: 0;
+   overflow-x: hidden;
+   transition: 0.6s;
+   position: fixed;
+   background-color: whitesmoke;
+}
+#side-bar a {
+    margin-top: 20px;
+    margin-left: 15%;
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 20px;
+}
+#side-bar button{
+    padding: 23px 33px;
+    font-size: 60px;
+    color: black;
+    background-color: whitesmoke;
+    border: none;
 }
