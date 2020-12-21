@@ -1,0 +1,39 @@
+.why-not{
+    text-align: center;
+    padding: 60px 15%;
+    color: white;
+    width: 100%;
+    background-image: url("../image/Why-Not/Why_Not.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.why-not h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 140px;
+}
+.why-not p{
+    font-size: 20px;
+}
+#recruit{
+    padding: 80px;
+    text-align: center;
+}
+#announce{
+    text-align: center;
+    font-size: 25px;
+}
+#announce table{
+    margin: 0 auto;
+}
+#announce td, #announce th{
+    padding: 10px;
+    border: 1px solid black;
+}
+#first{
+    background-color: black;
+    color: white;
+}
+.job{
+    text-align: left;
+}

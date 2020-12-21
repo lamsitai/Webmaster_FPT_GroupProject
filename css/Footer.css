@@ -10,11 +10,13 @@
     font-size: 40px;
     letter-spacing: 15px;
 }
+.check-box{
+    margin-top: 100px;
+}
 .check-box img{
     float:left;
     width: 33.3%;
     height: 400px;
-    margin-top: 200px;
 }
 .be-part-of{
     text-align: center;
@@ -26,6 +28,9 @@
 }
 .dangki{
     margin-top: 60px;
+}
+#sign-up{
+    margin: 0 10%;
 }
 #sign-up input{
     padding: 10px 40px;
@@ -46,7 +51,7 @@
     background-color: white;
 }
 .stores{
-    margin-top: 50px;
+    margin-top: 120px;
     text-align: left;
 }
 .block{
@@ -70,7 +75,6 @@
 .menu a{
     color: black;
 }
-.copyright {
+.copyright{
     margin-bottom: 50px;
-
 }

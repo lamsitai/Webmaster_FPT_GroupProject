@@ -1,3 +1,6 @@
+#blank{
+    height: 130px;
+}
 #my-header{
     top: 0;
     display: block;
@@ -121,7 +124,7 @@
     background-color: transparent;
     color: white;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1050px) {
     .box{
         display: none;
     }

@@ -1,0 +1,39 @@
+#top{
+    padding: 60px;
+    text-align: center;
+}
+#boxes{
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    width: 100%;
+    text-align: center;
+}
+#boxes button{
+    padding: 20px 10px;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    transition: 0.4s;
+}
+#boxes button:hover{
+    box-shadow: 0 0 5px black inset;
+}
+#hidden{
+    margin: 60px 10%;
+}
+#hidden h2{
+    margin: 40px 0;
+}
+#hidden li{
+    list-style: none;
+    font-size: 22px;
+}
+#hidden p{
+    font-size: 22px;
+}
+#box-one{
+    display: block;
+}
+.policy-panel{
+    display: none;
+}

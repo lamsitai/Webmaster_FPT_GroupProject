@@ -1,0 +1,11 @@
+#thanks{
+    text-align: center;
+    padding: 200px 25%;
+    margin-bottom: 500px;
+    color: white;
+    width: 100%;
+    background-image: url("../image/Thank-you/Background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

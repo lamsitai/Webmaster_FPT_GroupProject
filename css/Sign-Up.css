@@ -1,0 +1,35 @@
+#table{
+    padding: 80px 0;
+    width: 50%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 1px solid grey;
+    box-shadow: 0 0 50px darkgrey;
+}
+#table a{
+    color: black;
+}
+#table input{
+    font-size: 20px;
+    height: 45px;
+    width: 65%;
+    padding-left: 5%;
+    margin: 10px 0;
+}
+#table button{
+    margin-top: 40px;
+    padding: 10px 10%;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    transition: 0.6s;
+}
+#table button:hover{
+    color: black;
+    background-color: white;
+}
+.first{
+    margin-bottom: 30px;
+}
